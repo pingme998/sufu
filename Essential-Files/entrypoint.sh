@@ -12,7 +12,7 @@ my_var="${my_var#, }"              
 
 echo "$my_var"
 
-OLD=REMOTCLOUD
+OLD= "REMOTCLOUD"
 sed "s|$OLD|$my_var|g" /Aria2Rclone.htpy >/Aria2Rclone.ipynb
 
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
