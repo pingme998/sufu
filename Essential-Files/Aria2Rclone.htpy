@@ -39,7 +39,7 @@
     ")\n",
     "\n",
     "cloudname = widgets.Dropdown(\n",
-    "    options=[REMOTCLOUD, 'selectone'],\n",
+    "    options=[ REMOTCLOUD , 'selectone'],\n",
     "    value='selectone',\n",
     "    description='cloudname:',\n",
     "    disabled=False,\n",
